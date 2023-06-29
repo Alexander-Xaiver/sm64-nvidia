@@ -55,26 +55,3 @@ while True:
    display.Render(img)
    display.SetStatus("Object Detection | Network {:.0f} FPS".format(net.GetNetworkFPS()))
 
-# NOTE: I suggest putting the following code in `server.py` running on your laptop, and not here.
-# There's already a lot going on here, so translating "letter" -> "action"
-# may be easier to add on the laptop where we'll be running the actions anyways.
-
-# for input in detections:
-#     if input != "W" or "R" or "L" or "C" or "A" or "B" or "Y" or "Z":
-#         return(void)
-    
-#     input_list += input
-  #  if input == "W":
-        #walk forward
-     #if input == "R":
-        #walk right
-     #if input == "L":
-        #walk left
-     #if input == "C":
-        #crouch
-     #if input == "A":
-        #jump
-     #if input == "B":
-        #attack 
-     #if input == "Y":
-        #start
