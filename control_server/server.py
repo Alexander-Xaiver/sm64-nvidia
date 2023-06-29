@@ -5,7 +5,7 @@ import time
 
 # TODO: look into 'pyautogui' to programmatically press keys
 # NOTE: pydirectinput must be used instead due to limitations with Project64, specifically that it reads keyboard 
-# inputs and not keystrokes, which requires pydirectinput.
+# inputs and not keystrokes, which requires pydirectinput, which is very similar to pyautogui. 
 
 localIP     = "" # NOTE: empty string means "accept traffic from anywhere; localhost, LAN, or the wider internet". 
 localPort   = 20001
