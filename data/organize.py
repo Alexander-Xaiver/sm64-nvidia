@@ -4,6 +4,7 @@ from os import listdir
 #pulling image names from asl_original/* folders
 #and spits them into appropriate file for purposes
 #of organizing them into the expected format
+#for the included training program
 
 folder_dir = "/home/nvidia/jetson-inference/python/training/detection/ssd/data/asl_original/test"
 
