@@ -4,9 +4,10 @@ import time
 
 
 # TODO: look into 'pyautogui' to programmatically press keys
-# just be careful that you can safely turn it off while it's controlling your keyboard!
+# NOTE: pydirectinput must be used instead due to limitations with Project64, specifically that it reads keyboard 
+# inputs and not keystrokes, which requires pydirectinput.
 
-localIP     = "" # NOTE: empty string means "accept traffic from anywhere; localhost, LAN, or the wider internet". it's weird. lmk Thursday evening if you want to know a bit more
+localIP     = "" # NOTE: empty string means "accept traffic from anywhere; localhost, LAN, or the wider internet". 
 localPort   = 20001
 bufferSize  = 1024
 
@@ -55,5 +56,3 @@ while(True):
         pydirectinput.keyDown("y")
         time.sleep(0.1)
         pydirectinput.keyUp("y")
-            
-    # TODO: look through the message for any keys we care about, and press certain buttons on the keyboard
