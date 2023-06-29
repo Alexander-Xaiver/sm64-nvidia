@@ -36,7 +36,8 @@ The following is an inclusive list on getting the project running on a Jetson Na
      5. Open up a SM64 rom in the emulator.
      6. Edit the models/python-detection.py to include the IP of the host computer.
      7. Connect the Jetson Nano to the host computer via hotspot.
-     8. Run the python-detection.py script on the Jetson and the server.py script on the host.
+     8. Run the python-detection.py script (you'll want to be in the docker container by running docker/run.sh)
+     in the jetson-inference folder on the Jetson and the server.py script on the host.
      9. Focus the SM64 window and test the game using ASL controls.
 
 A demonstration is available at the following link: [View a video explanation here](video link)
