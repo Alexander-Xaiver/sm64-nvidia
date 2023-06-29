@@ -1,7 +1,7 @@
 import socket
 
 # NOTE: This file is a minimal demonstration of a UDP client sending a message.
-# To get this working on the Jetson, you only need to change the Server IP address
+# To get this working on the Jetson, you only need to change the Server IP address to reflect the appropriate IP for your network. 
 
 # Setup: Create a UDP socket at client side
 serverAddressPort   = ("127.0.0.1", 20001)
