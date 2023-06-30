@@ -40,7 +40,8 @@ The following is an inclusive list on getting the project running on a Jetson Na
      in the jetson-inference folder on the Jetson and the server.py script on the host.
      9. Focus the SM64 window and test the game using ASL controls.
 
-A demonstration is available at the following link: [View a video explanation here](video link)
+A demonstration is available at the following link: https://youtu.be/5Te2JgiFlbs
+Another video dives further into the system itself and how it manages to accomplish its task: https://youtu.be/uAghRpsAIko
 
 ## Difficulties and limitations
 
