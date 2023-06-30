@@ -1,7 +1,8 @@
 # ASL64
 
 This project adds motion control capabilities to Super Mario 64 by leveraging a detection dataset with python-based machine learning. It allows for simple functionality to move, jump, attack, crouch and navigate menus. 
-![](direct image link here)
+[Imgur](https://i.imgur.com/Ws86dyR.png)
+
 
 ## How the project functions
 
